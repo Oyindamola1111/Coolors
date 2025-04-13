@@ -669,14 +669,36 @@ body{
     width: 100%;
    }
   }
-  
-  @media only screen and (max-width:720px){
-    .small-hero{
-     grid-template-columns: 1fr 1fr;
-      width: 100%;
+
+
+  @media only screen and (max-width:1200px){
+   .small-hero{
+    margin-top: 300px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+   }
+  }
+
+
+  @media only screen and (min-width: 376px) and (max-width: 667px) {
+    .hero-page {
+      display: flex;
+      flex-direction: column;
+      
       /* background-color: red; */
     }
   }
+  
+ /* image for hero */
+  @media only screen and (min-width: 376px) and (max-width: 667px) {
+    .hero-image {
+      display: none;
+      
+      /* background-color: red; */
+    }
+  }
+
+
   @media only screen and (max-width:425px){
     .small-hero{
       display: flex;
